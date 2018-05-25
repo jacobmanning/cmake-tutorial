@@ -1,0 +1,10 @@
+#pragma once
+#ifndef TEST1_TEST1HEADER_H_
+#define TEST1_TEST1HEADER_H_
+
+#define TEST_NUMBER @TEST_NUMBER@
+
+void hello_test1(void);
+
+#endif // TEST1_TEST1HEADER_H_
+

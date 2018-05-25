@@ -1,0 +1,13 @@
+#pragma once
+#ifndef TEST2_TEST2HEADER_H_
+#define TEST2_TEST2HEADER_H_
+
+#define TEST_NUMBER @TEST_NUMBER@
+
+// Add the option from CMake
+#cmakedefine VERBOSE
+
+void hello_test2(void);
+
+#endif // TEST2_TEST2HEADER_H_
+
