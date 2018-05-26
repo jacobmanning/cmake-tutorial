@@ -3,7 +3,7 @@
 original_directory=$(pwd)
 
 # Create build directory
-mkdir build && cd build
+mkdir build-arm && cd build-arm
 
 # Configure with CMake
 cmake -DCMAKE_TOOLCHAIN_FILE=$original_directory/arm-toolchain.cmake ..
