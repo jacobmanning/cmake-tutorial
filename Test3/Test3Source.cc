@@ -10,7 +10,7 @@ int main(int argc, const char** argv) {
     HelperFunctions::print_welcome();
 #endif
 
-    hello_test3(); 
+    hello_test3();
 
     print_args(argc, argv);
 
@@ -28,4 +28,3 @@ void print_args(int argc, const char** argv) {
         std::cout << "Args[" << _i << "] = " << argv[_i] << std::endl;
     }
 }
-

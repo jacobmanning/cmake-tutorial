@@ -12,4 +12,3 @@ arm_build_dir=build-arm
 if [ -d ./$arm_build_dir ]; then
     \rm -rf ./$arm_build_dir
 fi
-

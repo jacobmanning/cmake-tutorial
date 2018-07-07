@@ -31,4 +31,3 @@ include_directories(${PROJECT_BINARY_DIR})
 add_executable(Test2 Test2Source.cc)
 # Link the compiled subdirectory to the main executable
 target_link_libraries(Test2 ${EXTRA_LIBS})
-

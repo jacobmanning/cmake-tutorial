@@ -24,4 +24,3 @@ int main(int argc, const char** argv) {
 void hello_test4(void) {
     std::cout << "Hello, Test" << TEST_NUMBER << "!" << std::endl;
 }
-

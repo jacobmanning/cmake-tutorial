@@ -17,4 +17,3 @@ include_directories(${PROJECT_BINARY_DIR})
 
 # Create executable from `Test1Source.cc` because it has main()
 add_executable(Test1 Test1Source.cc)
-

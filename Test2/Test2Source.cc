@@ -10,7 +10,7 @@ int main(int argc, const char** argv) {
     HelperFunctions::print_welcome();
 #endif
 
-    hello_test2(); 
+    hello_test2();
 
 #ifdef VERBOSE
     HelperFunctions::print_goodbye();
@@ -20,4 +20,3 @@ int main(int argc, const char** argv) {
 void hello_test2(void) {
     std::cout << "Hello, Test" << TEST_NUMBER << "!" << std::endl;
 }
-

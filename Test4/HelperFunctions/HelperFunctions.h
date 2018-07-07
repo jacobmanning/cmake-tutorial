@@ -11,4 +11,3 @@ void print_goodbye();
 } // namespace HelperFunctions
 
 #endif // HELPER_FUNCTIONS_H_
-

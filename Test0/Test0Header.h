@@ -5,4 +5,3 @@
 void hello_test0(void);
 
 #endif // TEST0_TEST0HEADER_H_
-

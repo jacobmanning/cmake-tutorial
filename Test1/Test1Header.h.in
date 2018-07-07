@@ -7,4 +7,3 @@
 void hello_test1(void);
 
 #endif // TEST1_TEST1HEADER_H_
-

@@ -11,4 +11,3 @@ void hello_test3(void);
 void print_args(int argc, const char** argv);
 
 #endif // TEST3_TEST3HEADER_H_
-
