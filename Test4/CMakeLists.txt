@@ -32,10 +32,8 @@ add_executable(Test4 Test4Source.cc)
 # Link the compiled subdirectory to the main executable
 target_link_libraries(Test4 ${EXTRA_LIBS})
 
-# Set the variable TEST_DIR to the abs path to this file
-get_filename_component(TEST_ROOT_DIR ${CMAKE_SOURCE_DIR} ABSOLUTE)
 # Set the install path to the build directory
-set(CMAKE_INSTALL_PREFIX ${TEST_ROOT_DIR}/build)
+set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR}/build-${CMAKE_SYSTEM_PROCESSOR})
 
 # Add install targets
 install(TARGETS Test4 DESTINATION bin)
@@ -66,4 +64,3 @@ endmacro()
 
 # Use macro for a test
 MAKE_TEST("Hello" "Hello")
-

@@ -32,10 +32,8 @@ add_executable(Test3 Test3Source.cc)
 # Link the compiled subdirectory to the main executable
 target_link_libraries(Test3 ${EXTRA_LIBS})
 
-# Set the variable TEST_DIR to the abs path to this file
-get_filename_component(TEST_ROOT_DIR ${CMAKE_SOURCE_DIR} ABSOLUTE)
 # Set the install path to the build directory
-set(CMAKE_INSTALL_PREFIX ${TEST_ROOT_DIR}/build)
+set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR}/build-${CMAKE_SYSTEM_PROCESSOR})
 
 # Add install targets
 install(TARGETS Test3 DESTINATION bin)

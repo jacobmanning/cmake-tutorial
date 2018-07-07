@@ -10,7 +10,7 @@ int main(int argc, const char** argv) {
     HelperFunctions::print_welcome();
 #endif
 
-    if (argc < 1) {
+    if (argc <= 1) {
         hello_test4();
     } else {
         std::cout << argv[1] << std::endl;

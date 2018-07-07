@@ -13,4 +13,3 @@ make install
 
 # Reset directory
 cd $original_directory
-
